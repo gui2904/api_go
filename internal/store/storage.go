@@ -1,6 +1,9 @@
 package store
 
-import "context"
+import (
+	"context"
+	"database/sql"
+)
 
 type Storage struct {
 	Posts interface {
